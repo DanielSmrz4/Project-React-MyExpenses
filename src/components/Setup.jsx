@@ -290,7 +290,7 @@ const Setup = () => {
 
   return (
     <div className={'flex-col text-center p-4 max-w-[500px] mx-auto'}>
-      <h1 className={'text-4xl mt-4 mb-8'}>My expenses</h1>
+      <h1 className={'text-4xl mt-4 mb-8'}>MyExpenses</h1>
       {/* Set new period */}
       <form noValidate={false} className={'space-x-1 flex justify-center items-center'}>
         <span  className={'text-[1rem] text-blue-400'}>Set Date</span>
