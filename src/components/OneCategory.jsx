@@ -32,7 +32,7 @@ const OneCategory = ({ name, records, deleteCategory, currency, deleteRecord }) 
       <hr />
       <ul className={'ml-1 mt-1 mb-4 space-y-1'}>
         {records.length === 0 ? (
-          <p>No records in this category</p>                      
+          <p className="text-slate-600">No records in this category</p>                      
         ) : (
           records.map((oneRecord, index) => {
             return (               

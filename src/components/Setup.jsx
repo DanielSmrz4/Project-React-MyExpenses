@@ -301,9 +301,9 @@ const Setup = () => {
           placeholder="mm/dd/yyyy"
           onChange={e => setPeriodDate(e.target.value)}
           required
-          className={'outline-0 border rounded-md p-1.25 min-w-25 max-w-fit text-center'}
+          className={'outline-0 border rounded-md p-1.5 min-w-25 max-w-fit text-center text-md'}
         />
-        <button onClick={setPeriod} className={'border-2 p-1.25 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Confirm</button>
+        <button onClick={setPeriod} className={'border-2 p-1.5 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Confirm</button>
       </form>
 
       {/* Errors */}
@@ -354,7 +354,7 @@ const Setup = () => {
             onChange={e => setIncomeName(e.target.value)}
             maxLength={30}
             required
-            className={'border p-1.25 rounded-md'}
+            className={'border p-1.5 rounded-md'}
             />
             <input
               type='number'
@@ -365,10 +365,10 @@ const Setup = () => {
               min={0}
               max={999999}
               required
-              className={'border p-1.25 rounded-md'}
+              className={'border p-1.5 rounded-md'}
             />
           </div>        
-          <button className={'border-2 p-1.25 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Add</button>
+          <button className={'border-2 p-1.5 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Add</button>
         </form>
       </div>     
 
@@ -387,7 +387,7 @@ const Setup = () => {
             onChange={e => setExpenseName(e.target.value)}
             maxLength={30}
             required
-            className={'border p-1.25 rounded-md'}
+            className={'border p-1.5 rounded-md'}
             />
             <input
               type='number'
@@ -398,12 +398,12 @@ const Setup = () => {
               min={0}
               max={999999}
               required
-              className={'border p-1.25 rounded-md'}
+              className={'border p-1.5 rounded-md'}
             />
             <select
               value={expenseCategory}
               onChange={(e) => setExpenseCategory(e.target.value)}
-              className={'border p-1.25 rounded-md'}
+              className={'border p-1.5 rounded-md text-md'}
               required
             >
               <option value="" disabled>Select category</option>
@@ -414,7 +414,7 @@ const Setup = () => {
               ))}
             </select>
           </div>        
-          <button className={'border-2 p-1.25 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Add</button>
+          <button className={'border-2 p-1.5 rounded-md cursor-pointer text-blue-400 bg-slate-800'}>Add</button>
         </form>
       </div>
       
@@ -430,11 +430,11 @@ const Setup = () => {
           onChange={e => setCategory(e.target.value)}
           maxLength={25}
           required
-          className={'flex-4/5 border p-1.25 rounded-md'}
+          className={'flex-4/5 border p-1.5 rounded-md'}
         />
         <button
           onClick={addCategory}
-          className={'border-2 p-1.25 rounded-md cursor-pointer text-blue-400 bg-slate-800'}
+          className={'border-2 p-1.5 rounded-md cursor-pointer text-blue-400 bg-slate-800'}
           >Add
         </button>
       </form>
