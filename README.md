@@ -1,4 +1,4 @@
-# My expenses
+# MyExpenses
 React web app build with vite for orginizing and keeping track of your finances.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
