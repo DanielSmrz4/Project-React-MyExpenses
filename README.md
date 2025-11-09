@@ -5,7 +5,7 @@ React web app build with vite for orginizing and keeping track of your finances.
 [![Build Status](https://travis-ci.com/username/repo.svg?branch=main)](https://travis-ci.com/username/repo)
 
 ## Description
-My expenses is a lightweight tool to easily orginize and categorize your expenses and keep quick overview of what and how much you spend money for. It supports records creation and deletion and storing values in local storage.
+MyExpenses is a lightweight tool to easily orginize and categorize your expenses and keep quick overview of what and how much you spend money for. It supports records creation and deletion and storing values in local storage.
 
 ## Table of Contents
 - [Installation](#installation)
